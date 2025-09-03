@@ -2,3 +2,4 @@ Test versions
 1
 V2
 V3 Desktop
+V4 Direct Commit
