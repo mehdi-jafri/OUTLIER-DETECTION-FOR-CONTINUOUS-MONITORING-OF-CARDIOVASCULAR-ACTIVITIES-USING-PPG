@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 df = pd.read_csv("Performance\\MAE.txt", sep="\s+", header=None)
 df.columns = ["Samples", "ST-SEE", "Autocorrelation_HRM", "Two_stage_framework"]
 

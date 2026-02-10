@@ -4,12 +4,12 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-# 1. Set base parameters
+#1. Set base parameters
 record_base = 'waves/p100/p10014354/81739927'
 base_url = f'https://physionet.org/files/mimic4wdb/0.1.0/{record_base}/'
 download_dir = f'mimic4wdb_download/{record_base}'
 
-# 2. Scrape list of .hea files from PhysioNet page
+#2. Scrape list of .hea files from PhysioNet page
 response = requests.get(base_url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
