@@ -32,3 +32,4 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.savefig("MAE_outlier_detection.png", dpi=300)
 plt.show()
+
